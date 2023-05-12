@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid;
+  padding: 10px;
+  border-color: gray;
+  color: lightcoral;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid;
+  padding: 30px;
+  border-color: gray;
+  color: lightcoral;
+  border-radius: 30px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: mediumaquamarine;
+  color: lightcoral;
+  padding: 20px;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 1rem;
+  cursor: pointer;
+  
+}
+
+.cart-product {
+
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid;
+  padding: 30px;
+  border-color: gray;
+  color: lightcoral;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.colorPrice {
+  color: aliceblue;
+}
+
+.colorPrice:hover {
+  color: lightgreen;
+  cursor: pointer;
+}
+
+.colorDesc {
+  color: aliceblue;
+  margin: 1 auto;
+  margin-top: 10px;
+}
+
+.emptyProd {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid;
+  padding: 30px;
+  border-color: gray;
+  color: lightcoral;
+  border-radius: 30px;
+}
+
+.showProd {
+  color: aliceblue;
+  display: flex;
+  gap: 5px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 30px;
+}
+.showProduct :hover{
+    color: aquamarine;
+}
+
+
+
+
+
+.btn-flotante {
+	font-size: 16px;
+	text-transform: uppercase; 
+	font-weight: bold;
+	color: #ffffff; 
+	border-radius: 5px;
+	letter-spacing: 2px; 
+	background-color: #E91E63; 
+	padding: 18px 30px; 
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+
+.btn-flotante:hover {
+	background-color:lightgreen;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+    color: #121212;
+}

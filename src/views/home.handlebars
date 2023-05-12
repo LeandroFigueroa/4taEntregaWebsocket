@@ -1,0 +1,35 @@
+{{#if products.length}}
+  <div>
+    <h1>
+      Productos agregados
+    </h1>
+  <button
+    style="margin-left:800px ;margin-top:10px"
+    class="button"
+    onclick="window.location.href='/realtimeproducts'"
+  >Cargar mas productos</button>
+  </div>
+
+  {{#each products}}
+
+    <div class="cart-product">
+
+      <ul>
+        <h1>{{this.name}}</h1>
+        <h2 class="colorPrice">Precio: ${{price}}</h2>
+        <h3 class="colorDesc">Descripción: {{this.description}}</h3>
+        
+      </ul>
+      
+    </div>
+  {{/each}}
+{{else}}
+
+  <h1>Coderhouse Backend: Trabajo practico </h1>
+  <h2 class="emptyProd">No hay productos para mostrar</h2>
+  <button
+    style="margin-left:850px ;margin-top:10px"
+    class="button"
+    onclick="window.location.href='/realtimeproducts'"
+  >Cargar producto</button>
+{{/if}}

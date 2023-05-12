@@ -1,0 +1,43 @@
+<h2>Socket cliente</h2>
+<div>
+ <button
+
+    class="btn-flotante"
+    onclick="window.location.href='/'"
+  >Volver a inicio</button>
+</div>
+<form id="form">
+  <label>Producto: </label>
+  <input
+    style="padding: 10px;"
+    type="text"
+    name="name"
+    id="name"
+    placeholder="Nombre del producto"
+  />
+  <label>Precio:</label>
+  <input
+    style="padding: 10px;"
+    type="text"
+    name="price"
+    id="price"
+    placeholder="Precio del producto"
+  />
+  <label>Descripcion:</label>
+  <input
+    style="height: 30px"
+    type="text"
+    name="description"
+    id="description"
+    placeholder="Descripcion del producto"
+  />
+  <input class="button" type="submit" value="Enviar" />
+</form>
+<div class="showProd">
+
+    <p id="products"></p>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
